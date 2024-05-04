@@ -2,8 +2,8 @@ package api
 
 import (
 	"encoding/json"
-	"github.com/codecodify/news/lib"
-	"github.com/codecodify/news/lib/impl"
+	"github.com/longz666/news/lib"
+	"github.com/longz666/news/lib/impl"
 	"log"
 	"net/http"
 	"strconv"
