@@ -12,7 +12,7 @@ import (
 type Wangyi struct{}
 
 func (c *Wangyi) Get(index int) (lib.Response, error) {
-	url := "https://www.163.com/dy/media/T1603594732083.html"
+	url := "https://www.163.com/dy/media/T1704505354411.html"
 	var resp lib.Response
 	body, err := lib.Fetch(url)
 	if err != nil {
