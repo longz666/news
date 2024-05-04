@@ -1,4 +1,4 @@
-module github.com/codecodify/news
+module github.com/longz666/news
 
 go 1.18
 
