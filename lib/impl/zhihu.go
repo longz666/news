@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/PuerkitoBio/goquery"
-	"github.com/codecodify/news/lib"
+	"github.com/longz666/news/lib"
 	"log"
 	"strings"
 )
