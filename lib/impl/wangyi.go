@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 	"github.com/PuerkitoBio/goquery"
-	"github.com/codecodify/news/lib"
+	"github.com/longz666/news/lib"
 	"log"
 	"strings"
 )
