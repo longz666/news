@@ -20,7 +20,7 @@ type ZhihuResp struct {
 }
 
 func (c *Zhihu) Get(index int) (lib.Response, error) {
-	url := fmt.Sprintf("https://v2.alapi.cn/api/zaobao?token=nIxqBcVR8gR1bnFt&format=txt", index)
+	url := fmt.Sprintf("https://www.zhihu.com/api/v4/columns/c_1261258401923026944/items?limit=1&offset=%d", index)
 	var resp lib.Response
 	body, err := lib.Fetch(url)
 	if err != nil {
